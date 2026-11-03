@@ -19,6 +19,8 @@
 
     <modules>
         <module>cloud</module>
+        <module>services</module>
+        <module>common-library</module>
     </modules>
 
     <properties>
