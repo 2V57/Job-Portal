@@ -10,7 +10,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>job-protal-service</artifactId>
+    <artifactId>job-portal-service</artifactId>
     <packaging>pom</packaging>
     <name>job-portal-service</name>
     <description>Business Services Modules</description>

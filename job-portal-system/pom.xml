@@ -41,11 +41,11 @@
                 <scope>import</scope>
             </dependency>
 
-        <!--    <dependency>
+            <dependency>
                 <groupId>com.vr.job</groupId>
                 <artifactId>job-portal-common</artifactId>
                 <version>${project.version}</version>
-            </dependency>-->
+            </dependency>
 
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
