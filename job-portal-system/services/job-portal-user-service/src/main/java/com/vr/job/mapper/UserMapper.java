@@ -3,6 +3,9 @@ package com.vr.job.mapper;
 import com.vr.job.dto.response.UserResponse;
 import com.vr.job.modal.User;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class UserMapper {
 
     public static UserResponse toDTO(User user){
@@ -18,5 +21,9 @@ public class UserMapper {
         dto.setCreatedAt(user.getCreateAt());
 
         return dto;
+    }
+
+    public static List<UserResponse> toDTOList(List<User> users){
+        return users.stream().map(UserMapper::toDTO).collect(Collectors.toList());
     }
 }
